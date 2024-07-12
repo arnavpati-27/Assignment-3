@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6680be;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-menu-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar-logo {
+    color: #6680be;
+    background-color: white;
+    padding: 5px;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.item-box {
+    color: #6680be;
+    font-size: 17px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
